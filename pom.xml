@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion/>
 
-    <groupId>ru.ifellow</groupId>
+    <groupId>ru.ifellow.JSchool</groupId>
     <artifactId>introdution</artifactId>
     <version>1.0</version>
     <properties>
