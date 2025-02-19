@@ -48,6 +48,7 @@ public class FirstSteps {
     public int mul(int[] array){
         int mul = 0;
         if (array != null && array.length != 0) {
+            mul = 1;
             for (int i : array) {
                 mul *= i;
             }
