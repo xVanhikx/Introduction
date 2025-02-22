@@ -83,7 +83,7 @@ public class FirstSteps {
     public double average(int[] array) {
         double average = 0;
         if (array != null && array.length != 0) {
-            average = sum(array) / array.length;
+            average = (double) sum(array) / array.length;
         }
         return average;
     }
@@ -152,7 +152,7 @@ public class FirstSteps {
         int sum = 0;
         if (matrix != null && matrix.length != 0) {
             for (int[] array : matrix) {
-                sum = sum(array);
+                sum += sum(array);
             }
         }
         return sum;
